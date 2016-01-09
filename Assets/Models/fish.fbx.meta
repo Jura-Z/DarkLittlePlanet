@@ -1,15 +1,65 @@
 fileFormatVersion: 2
 guid: d3d521273ab8b444090137d013bec884
-timeCreated: 1452345043
+timeCreated: 1452352855
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Armature
+    100004: face.001
+    100006: face.002
+    100008: face.002_end
+    100010: fin.B
+    100012: fin.B.001
+    100014: fin.B.001_end
+    100016: fin.L
+    100018: fin.L.001
+    100020: fin.L.001_end
+    100022: fin.R
+    100024: fin.R.001
+    100026: fin.R.001_end
+    100028: fin.T
+    100030: fin.T.001
+    100032: fin.T.001_end
+    100034: fish
+    100036: Master
+    100038: tail.001
+    100040: tail.002
+    100042: tail.003
+    100044: tail.004
+    100046: tail.004_end
     400000: //RootNode
+    400002: Armature
+    400004: face.001
+    400006: face.002
+    400008: face.002_end
+    400010: fin.B
+    400012: fin.B.001
+    400014: fin.B.001_end
+    400016: fin.L
+    400018: fin.L.001
+    400020: fin.L.001_end
+    400022: fin.R
+    400024: fin.R.001
+    400026: fin.R.001_end
+    400028: fin.T
+    400030: fin.T.001
+    400032: fin.T.001_end
+    400034: fish
+    400036: Master
+    400038: tail.001
+    400040: tail.002
+    400042: tail.003
+    400044: tail.004
+    400046: tail.004_end
     4300000: Cube.001
+    4300002: fish
+    7400000: Armature|ArmatureAction
+    7400002: Armature|KeyAction
     9500000: //RootNode
     13700000: //RootNode
+    13700002: fish
   materials:
     importMaterials: 0
     materialName: 0
@@ -30,11 +80,163 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master
+        weight: 1
+      - path: Armature/Master/face.001
+        weight: 1
+      - path: Armature/Master/face.001/face.002
+        weight: 1
+      - path: Armature/Master/face.001/face.002/face.002_end
+        weight: 1
+      - path: Armature/Master/face.001/fin.L
+        weight: 1
+      - path: Armature/Master/face.001/fin.L/fin.L.001
+        weight: 1
+      - path: Armature/Master/face.001/fin.L/fin.L.001/fin.L.001_end
+        weight: 1
+      - path: Armature/Master/face.001/fin.R
+        weight: 1
+      - path: Armature/Master/face.001/fin.R/fin.R.001
+        weight: 1
+      - path: Armature/Master/face.001/fin.R/fin.R.001/fin.R.001_end
+        weight: 1
+      - path: Armature/Master/tail.001
+        weight: 1
+      - path: Armature/Master/tail.001/fin.B
+        weight: 1
+      - path: Armature/Master/tail.001/fin.B/fin.B.001
+        weight: 1
+      - path: Armature/Master/tail.001/fin.B/fin.B.001/fin.B.001_end
+        weight: 1
+      - path: Armature/Master/tail.001/fin.T
+        weight: 1
+      - path: Armature/Master/tail.001/fin.T/fin.T.001
+        weight: 1
+      - path: Armature/Master/tail.001/fin.T/fin.T.001/fin.T.001_end
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002/tail.003
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002/tail.003/tail.004
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002/tail.003/tail.004/tail.004_end
+        weight: 1
+      - path: fish
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|KeyAction
+      takeName: Armature|KeyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Master
+        weight: 1
+      - path: Armature/Master/face.001
+        weight: 1
+      - path: Armature/Master/face.001/face.002
+        weight: 1
+      - path: Armature/Master/face.001/face.002/face.002_end
+        weight: 1
+      - path: Armature/Master/face.001/fin.L
+        weight: 1
+      - path: Armature/Master/face.001/fin.L/fin.L.001
+        weight: 1
+      - path: Armature/Master/face.001/fin.L/fin.L.001/fin.L.001_end
+        weight: 1
+      - path: Armature/Master/face.001/fin.R
+        weight: 1
+      - path: Armature/Master/face.001/fin.R/fin.R.001
+        weight: 1
+      - path: Armature/Master/face.001/fin.R/fin.R.001/fin.R.001_end
+        weight: 1
+      - path: Armature/Master/tail.001
+        weight: 1
+      - path: Armature/Master/tail.001/fin.B
+        weight: 1
+      - path: Armature/Master/tail.001/fin.B/fin.B.001
+        weight: 1
+      - path: Armature/Master/tail.001/fin.B/fin.B.001/fin.B.001_end
+        weight: 1
+      - path: Armature/Master/tail.001/fin.T
+        weight: 1
+      - path: Armature/Master/tail.001/fin.T/fin.T.001
+        weight: 1
+      - path: Armature/Master/tail.001/fin.T/fin.T.001/fin.T.001_end
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002/tail.003
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002/tail.003/tail.004
+        weight: 1
+      - path: Armature/Master/tail.001/tail.002/tail.003/tail.004/tail.004_end
+        weight: 1
+      - path: fish
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
