@@ -4,8 +4,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 
+[RequireComponent(typeof(Rigidbody))]
 public class FishController : MonoBehaviour
 {
+    public float speed = 10f;
+    public float maxVelocityChange = 10.0f;
+    private Rigidbody characterRigidBody;
+     
     static FishController instance = null;
     public static FishController Instance {
         get { Assert.IsNotNull(instance); return instance; }
@@ -70,14 +75,28 @@ public class FishController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-	    
-	}
+        characterRigidBody = GetComponent<Rigidbody>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        
 
+        // Calculate how fast we should be moving
+        Vector3 targetVelocity = new Vector3(0f, 0f, Input.GetAxis("Vertical"));
+        Vector3 turnVelocity = new Vector3(0f, Input.GetAxis("Horizontal"), 0f); ;
+        targetVelocity = transform.TransformDirection(targetVelocity);
+        targetVelocity *= speed;
 
-	}
+        // Apply a force that attempts to reach our target velocity
+        Vector3 velocity = characterRigidBody.velocity;
+        Vector3 velocityChange = (targetVelocity - velocity);
+        velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelocityChange, maxVelocityChange);
+        velocityChange.z = Mathf.Clamp(velocityChange.z, -maxVelocityChange, maxVelocityChange);
+        velocityChange.y = 0;
+
+        Quaternion deltaRotation = Quaternion.Euler(turnVelocity * Time.deltaTime * 100);
+        characterRigidBody.MoveRotation(characterRigidBody.rotation * deltaRotation);
+        characterRigidBody.AddForce(velocityChange, ForceMode.VelocityChange);
+    }
 }

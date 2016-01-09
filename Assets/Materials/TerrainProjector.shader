@@ -15,7 +15,10 @@
  
          #pragma vertex vert  
          #pragma fragment frag 
+		// make fog work
+		#pragma multi_compile_fog
  
+		#include "UnityCG.cginc"
          // User-specified properties
          uniform sampler2D _ShadowTex; 
          float4 _ShadowTex_ST;
@@ -36,9 +39,11 @@
             float3 normal : NORMAL;
          };
          struct vertexOutput {
+			UNITY_FOG_COORDS(1)
             float4 pos : SV_POSITION;
             float4 posProj : TEXCOORD0;
-            float4 posWorld : TEXCOORD1;
+            float4 posWorld : TEXCOORD2;
+			
                // position in projector space
          };
  
@@ -49,6 +54,7 @@
             output.posProj = mul(_Projector, input.vertex);
             output.pos = mul(UNITY_MATRIX_MVP, input.vertex);
             output.posWorld = mul(_Object2World, input.vertex);
+			UNITY_TRANSFER_FOG(output, output.pos);
             return output;
          }
 
@@ -75,7 +81,11 @@
             	float4 stcolor = tex2D(_ShadowTex , texC );
                	result.rgb += stcolor;
 
+				// apply fog
+				UNITY_APPLY_FOG(input.fogCoord, result);
+
                	result.a += _CausticTint;
+
             }
 
             return result;

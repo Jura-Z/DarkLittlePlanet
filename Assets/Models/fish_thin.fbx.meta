@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 52db356688f773a42b0ec1e6ad826dbe
+timeCreated: 1452361732
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: face.001
+    100004: face.002
+    100006: face.002_end
+    100008: fin.B
+    100010: fin.B.001
+    100012: fin.B.001_end
+    100014: fin.L
+    100016: fin.L.001
+    100018: fin.L.001_end
+    100020: fin.R
+    100022: fin.R.001
+    100024: fin.R.001_end
+    100026: fin.T
+    100028: fin.T.001
+    100030: fin.T.001_end
+    100032: fish
+    100034: //RootNode
+    100036: Master
+    100038: tail.001
+    100040: tail.002
+    100042: tail.003
+    100044: tail.004
+    100046: tail.004_end
+    400000: Armature
+    400002: face.001
+    400004: face.002
+    400006: face.002_end
+    400008: fin.B
+    400010: fin.B.001
+    400012: fin.B.001_end
+    400014: fin.L
+    400016: fin.L.001
+    400018: fin.L.001_end
+    400020: fin.R
+    400022: fin.R.001
+    400024: fin.R.001_end
+    400026: fin.T
+    400028: fin.T.001
+    400030: fin.T.001_end
+    400032: fish
+    400034: //RootNode
+    400036: Master
+    400038: tail.001
+    400040: tail.002
+    400042: tail.003
+    400044: tail.004
+    400046: tail.004_end
+    4300000: fish
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    9500000: //RootNode
+    13700000: fish
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
