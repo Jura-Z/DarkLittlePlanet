@@ -10,6 +10,7 @@ public class FishController : MonoBehaviour
     public float speed = 10f;
     public float maxVelocityChange = 10.0f;
     private Rigidbody characterRigidBody;
+    public AudioSource swimSoundFX;
      
     static FishController instance = null;
     public static FishController Instance {
@@ -87,6 +88,12 @@ public class FishController : MonoBehaviour
         Vector3 turnVelocity = new Vector3(0f, Input.GetAxis("Horizontal"), 0f); ;
         targetVelocity = transform.TransformDirection(targetVelocity);
         targetVelocity *= speed;
+
+        if (targetVelocity.magnitude > 2 && swimSoundFX.isPlaying == false)
+            swimSoundFX.Play();
+
+        if (targetVelocity.magnitude <2 && swimSoundFX.isPlaying == true)
+            swimSoundFX.Stop();
 
         // Apply a force that attempts to reach our target velocity
         Vector3 velocity = characterRigidBody.velocity;

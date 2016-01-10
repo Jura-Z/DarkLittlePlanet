@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: a496c89e8ffd1534db6dafe8c5e8c465
+timeCreated: 1452367624
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm1.000
+    100002: Armature
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.001_end
+    100010: //RootNode
+    100012: leg.Bone.1
+    100014: leg.Bone.2
+    100016: leg.Bone.3
+    100018: leg.Bone.4
+    100020: leg.Bone.5
+    100022: leg.Bone.5_end
+    100024: leg01.Bone.1
+    100026: leg01.Bone.2
+    100028: leg01.Bone.3
+    100030: leg01.Bone.4
+    100032: leg01.Bone.5
+    100034: leg01.Bone.5_end
+    100036: leg02.Bone.1
+    100038: leg02.Bone.2
+    100040: leg02.Bone.3
+    100042: leg02.Bone.4
+    100044: leg02.Bone.5
+    100046: leg02.Bone.5_end
+    100048: leg03.Bone.1
+    100050: leg03.Bone.2
+    100052: leg03.Bone.3
+    100054: leg03.Bone.4
+    100056: leg03.Bone.5
+    100058: leg03.Bone.5_end
+    100060: leg04.Bone.1
+    100062: leg04.Bone.2
+    100064: leg04.Bone.3
+    100066: leg04.Bone.4
+    100068: leg04.Bone.5
+    100070: leg04.Bone.5_end
+    100072: leg05.Bone.1
+    100074: leg05.Bone.2
+    100076: leg05.Bone.3
+    100078: leg05.Bone.4
+    100080: leg05.Bone.5
+    100082: leg05.Bone.5_end
+    100084: leg06.Bone.1
+    100086: leg06.Bone.2
+    100088: leg06.Bone.3
+    100090: leg06.Bone.4
+    100092: leg06.Bone.5
+    100094: leg06.Bone.5_end
+    100096: leg07.Bone.1
+    100098: leg07.Bone.2
+    100100: leg07.Bone.3
+    100102: leg07.Bone.4
+    100104: leg07.Bone.5
+    100106: leg07.Bone.5_end
+    100108: leg08.Bone.1
+    100110: leg08.Bone.2
+    100112: leg08.Bone.3
+    100114: leg08.Bone.4
+    100116: leg08.Bone.5
+    100118: leg08.Bone.5_end
+    100120: leg09.Bone.1
+    100122: leg09.Bone.2
+    100124: leg09.Bone.3
+    100126: leg09.Bone.4
+    100128: leg09.Bone.5
+    100130: leg09.Bone.5_end
+    100132: leg10.Bone.1
+    100134: leg10.Bone.2
+    100136: leg10.Bone.3
+    100138: leg10.Bone.4
+    100140: leg10.Bone.5
+    100142: leg10.Bone.5_end
+    100144: leg11.Bone.1
+    100146: leg11.Bone.2
+    100148: leg11.Bone.3
+    100150: leg11.Bone.4
+    100152: leg11.Bone.5
+    100154: leg11.Bone.5_end
+    100156: leg12.Bone.1
+    100158: leg12.Bone.2
+    100160: leg12.Bone.3
+    100162: leg12.Bone.4
+    100164: leg12.Bone.5
+    100166: leg12.Bone.5_end
+    100168: leg13.Bone.1
+    100170: leg13.Bone.2
+    100172: leg13.Bone.3
+    100174: leg13.Bone.4
+    100176: leg13.Bone.5
+    100178: leg13.Bone.5_end
+    100180: leg14.Bone.1
+    100182: leg14.Bone.2
+    100184: leg14.Bone.3
+    100186: leg14.Bone.4
+    100188: leg14.Bone.5
+    100190: leg14.Bone.5_end
+    100192: leg15.Bone.1
+    100194: leg15.Bone.2
+    100196: leg15.Bone.3
+    100198: leg15.Bone.4
+    100200: leg15.Bone.5
+    100202: leg15.Bone.5_end
+    100204: master
+    100206: Sphere.001
+    400000: Arm1.000
+    400002: Armature
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.001_end
+    400010: //RootNode
+    400012: leg.Bone.1
+    400014: leg.Bone.2
+    400016: leg.Bone.3
+    400018: leg.Bone.4
+    400020: leg.Bone.5
+    400022: leg.Bone.5_end
+    400024: leg01.Bone.1
+    400026: leg01.Bone.2
+    400028: leg01.Bone.3
+    400030: leg01.Bone.4
+    400032: leg01.Bone.5
+    400034: leg01.Bone.5_end
+    400036: leg02.Bone.1
+    400038: leg02.Bone.2
+    400040: leg02.Bone.3
+    400042: leg02.Bone.4
+    400044: leg02.Bone.5
+    400046: leg02.Bone.5_end
+    400048: leg03.Bone.1
+    400050: leg03.Bone.2
+    400052: leg03.Bone.3
+    400054: leg03.Bone.4
+    400056: leg03.Bone.5
+    400058: leg03.Bone.5_end
+    400060: leg04.Bone.1
+    400062: leg04.Bone.2
+    400064: leg04.Bone.3
+    400066: leg04.Bone.4
+    400068: leg04.Bone.5
+    400070: leg04.Bone.5_end
+    400072: leg05.Bone.1
+    400074: leg05.Bone.2
+    400076: leg05.Bone.3
+    400078: leg05.Bone.4
+    400080: leg05.Bone.5
+    400082: leg05.Bone.5_end
+    400084: leg06.Bone.1
+    400086: leg06.Bone.2
+    400088: leg06.Bone.3
+    400090: leg06.Bone.4
+    400092: leg06.Bone.5
+    400094: leg06.Bone.5_end
+    400096: leg07.Bone.1
+    400098: leg07.Bone.2
+    400100: leg07.Bone.3
+    400102: leg07.Bone.4
+    400104: leg07.Bone.5
+    400106: leg07.Bone.5_end
+    400108: leg08.Bone.1
+    400110: leg08.Bone.2
+    400112: leg08.Bone.3
+    400114: leg08.Bone.4
+    400116: leg08.Bone.5
+    400118: leg08.Bone.5_end
+    400120: leg09.Bone.1
+    400122: leg09.Bone.2
+    400124: leg09.Bone.3
+    400126: leg09.Bone.4
+    400128: leg09.Bone.5
+    400130: leg09.Bone.5_end
+    400132: leg10.Bone.1
+    400134: leg10.Bone.2
+    400136: leg10.Bone.3
+    400138: leg10.Bone.4
+    400140: leg10.Bone.5
+    400142: leg10.Bone.5_end
+    400144: leg11.Bone.1
+    400146: leg11.Bone.2
+    400148: leg11.Bone.3
+    400150: leg11.Bone.4
+    400152: leg11.Bone.5
+    400154: leg11.Bone.5_end
+    400156: leg12.Bone.1
+    400158: leg12.Bone.2
+    400160: leg12.Bone.3
+    400162: leg12.Bone.4
+    400164: leg12.Bone.5
+    400166: leg12.Bone.5_end
+    400168: leg13.Bone.1
+    400170: leg13.Bone.2
+    400172: leg13.Bone.3
+    400174: leg13.Bone.4
+    400176: leg13.Bone.5
+    400178: leg13.Bone.5_end
+    400180: leg14.Bone.1
+    400182: leg14.Bone.2
+    400184: leg14.Bone.3
+    400186: leg14.Bone.4
+    400188: leg14.Bone.5
+    400190: leg14.Bone.5_end
+    400192: leg15.Bone.1
+    400194: leg15.Bone.2
+    400196: leg15.Bone.3
+    400198: leg15.Bone.4
+    400200: leg15.Bone.5
+    400202: leg15.Bone.5_end
+    400204: master
+    400206: Sphere.001
+    2300000: Arm1.000
+    3300000: Arm1.000
+    4300000: Sphere.001
+    4300002: Arm1.000
+    7400000: Armature|Jelly anim
+    9500000: //RootNode
+    13700000: Sphere.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Jelly anim
+      takeName: Armature|Jelly anim
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm1.000
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/master
+        weight: 1
+      - path: Armature/master/Bone
+        weight: 1
+      - path: Armature/master/Bone/Bone.001
+        weight: 1
+      - path: Armature/master/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/master/leg.Bone.1
+        weight: 1
+      - path: Armature/master/leg.Bone.1/leg.Bone.2
+        weight: 1
+      - path: Armature/master/leg.Bone.1/leg.Bone.2/leg.Bone.3
+        weight: 1
+      - path: Armature/master/leg.Bone.1/leg.Bone.2/leg.Bone.3/leg.Bone.4
+        weight: 1
+      - path: Armature/master/leg.Bone.1/leg.Bone.2/leg.Bone.3/leg.Bone.4/leg.Bone.5
+        weight: 1
+      - path: Armature/master/leg.Bone.1/leg.Bone.2/leg.Bone.3/leg.Bone.4/leg.Bone.5/leg.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg01.Bone.1
+        weight: 1
+      - path: Armature/master/leg01.Bone.1/leg01.Bone.2
+        weight: 1
+      - path: Armature/master/leg01.Bone.1/leg01.Bone.2/leg01.Bone.3
+        weight: 1
+      - path: Armature/master/leg01.Bone.1/leg01.Bone.2/leg01.Bone.3/leg01.Bone.4
+        weight: 1
+      - path: Armature/master/leg01.Bone.1/leg01.Bone.2/leg01.Bone.3/leg01.Bone.4/leg01.Bone.5
+        weight: 1
+      - path: Armature/master/leg01.Bone.1/leg01.Bone.2/leg01.Bone.3/leg01.Bone.4/leg01.Bone.5/leg01.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg02.Bone.1
+        weight: 1
+      - path: Armature/master/leg02.Bone.1/leg02.Bone.2
+        weight: 1
+      - path: Armature/master/leg02.Bone.1/leg02.Bone.2/leg02.Bone.3
+        weight: 1
+      - path: Armature/master/leg02.Bone.1/leg02.Bone.2/leg02.Bone.3/leg02.Bone.4
+        weight: 1
+      - path: Armature/master/leg02.Bone.1/leg02.Bone.2/leg02.Bone.3/leg02.Bone.4/leg02.Bone.5
+        weight: 1
+      - path: Armature/master/leg02.Bone.1/leg02.Bone.2/leg02.Bone.3/leg02.Bone.4/leg02.Bone.5/leg02.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg03.Bone.1
+        weight: 1
+      - path: Armature/master/leg03.Bone.1/leg03.Bone.2
+        weight: 1
+      - path: Armature/master/leg03.Bone.1/leg03.Bone.2/leg03.Bone.3
+        weight: 1
+      - path: Armature/master/leg03.Bone.1/leg03.Bone.2/leg03.Bone.3/leg03.Bone.4
+        weight: 1
+      - path: Armature/master/leg03.Bone.1/leg03.Bone.2/leg03.Bone.3/leg03.Bone.4/leg03.Bone.5
+        weight: 1
+      - path: Armature/master/leg03.Bone.1/leg03.Bone.2/leg03.Bone.3/leg03.Bone.4/leg03.Bone.5/leg03.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg04.Bone.1
+        weight: 1
+      - path: Armature/master/leg04.Bone.1/leg04.Bone.2
+        weight: 1
+      - path: Armature/master/leg04.Bone.1/leg04.Bone.2/leg04.Bone.3
+        weight: 1
+      - path: Armature/master/leg04.Bone.1/leg04.Bone.2/leg04.Bone.3/leg04.Bone.4
+        weight: 1
+      - path: Armature/master/leg04.Bone.1/leg04.Bone.2/leg04.Bone.3/leg04.Bone.4/leg04.Bone.5
+        weight: 1
+      - path: Armature/master/leg04.Bone.1/leg04.Bone.2/leg04.Bone.3/leg04.Bone.4/leg04.Bone.5/leg04.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg05.Bone.1
+        weight: 1
+      - path: Armature/master/leg05.Bone.1/leg05.Bone.2
+        weight: 1
+      - path: Armature/master/leg05.Bone.1/leg05.Bone.2/leg05.Bone.3
+        weight: 1
+      - path: Armature/master/leg05.Bone.1/leg05.Bone.2/leg05.Bone.3/leg05.Bone.4
+        weight: 1
+      - path: Armature/master/leg05.Bone.1/leg05.Bone.2/leg05.Bone.3/leg05.Bone.4/leg05.Bone.5
+        weight: 1
+      - path: Armature/master/leg05.Bone.1/leg05.Bone.2/leg05.Bone.3/leg05.Bone.4/leg05.Bone.5/leg05.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg06.Bone.1
+        weight: 1
+      - path: Armature/master/leg06.Bone.1/leg06.Bone.2
+        weight: 1
+      - path: Armature/master/leg06.Bone.1/leg06.Bone.2/leg06.Bone.3
+        weight: 1
+      - path: Armature/master/leg06.Bone.1/leg06.Bone.2/leg06.Bone.3/leg06.Bone.4
+        weight: 1
+      - path: Armature/master/leg06.Bone.1/leg06.Bone.2/leg06.Bone.3/leg06.Bone.4/leg06.Bone.5
+        weight: 1
+      - path: Armature/master/leg06.Bone.1/leg06.Bone.2/leg06.Bone.3/leg06.Bone.4/leg06.Bone.5/leg06.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg07.Bone.1
+        weight: 1
+      - path: Armature/master/leg07.Bone.1/leg07.Bone.2
+        weight: 1
+      - path: Armature/master/leg07.Bone.1/leg07.Bone.2/leg07.Bone.3
+        weight: 1
+      - path: Armature/master/leg07.Bone.1/leg07.Bone.2/leg07.Bone.3/leg07.Bone.4
+        weight: 1
+      - path: Armature/master/leg07.Bone.1/leg07.Bone.2/leg07.Bone.3/leg07.Bone.4/leg07.Bone.5
+        weight: 1
+      - path: Armature/master/leg07.Bone.1/leg07.Bone.2/leg07.Bone.3/leg07.Bone.4/leg07.Bone.5/leg07.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg08.Bone.1
+        weight: 1
+      - path: Armature/master/leg08.Bone.1/leg08.Bone.2
+        weight: 1
+      - path: Armature/master/leg08.Bone.1/leg08.Bone.2/leg08.Bone.3
+        weight: 1
+      - path: Armature/master/leg08.Bone.1/leg08.Bone.2/leg08.Bone.3/leg08.Bone.4
+        weight: 1
+      - path: Armature/master/leg08.Bone.1/leg08.Bone.2/leg08.Bone.3/leg08.Bone.4/leg08.Bone.5
+        weight: 1
+      - path: Armature/master/leg08.Bone.1/leg08.Bone.2/leg08.Bone.3/leg08.Bone.4/leg08.Bone.5/leg08.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg09.Bone.1
+        weight: 1
+      - path: Armature/master/leg09.Bone.1/leg09.Bone.2
+        weight: 1
+      - path: Armature/master/leg09.Bone.1/leg09.Bone.2/leg09.Bone.3
+        weight: 1
+      - path: Armature/master/leg09.Bone.1/leg09.Bone.2/leg09.Bone.3/leg09.Bone.4
+        weight: 1
+      - path: Armature/master/leg09.Bone.1/leg09.Bone.2/leg09.Bone.3/leg09.Bone.4/leg09.Bone.5
+        weight: 1
+      - path: Armature/master/leg09.Bone.1/leg09.Bone.2/leg09.Bone.3/leg09.Bone.4/leg09.Bone.5/leg09.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg10.Bone.1
+        weight: 1
+      - path: Armature/master/leg10.Bone.1/leg10.Bone.2
+        weight: 1
+      - path: Armature/master/leg10.Bone.1/leg10.Bone.2/leg10.Bone.3
+        weight: 1
+      - path: Armature/master/leg10.Bone.1/leg10.Bone.2/leg10.Bone.3/leg10.Bone.4
+        weight: 1
+      - path: Armature/master/leg10.Bone.1/leg10.Bone.2/leg10.Bone.3/leg10.Bone.4/leg10.Bone.5
+        weight: 1
+      - path: Armature/master/leg10.Bone.1/leg10.Bone.2/leg10.Bone.3/leg10.Bone.4/leg10.Bone.5/leg10.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg11.Bone.1
+        weight: 1
+      - path: Armature/master/leg11.Bone.1/leg11.Bone.2
+        weight: 1
+      - path: Armature/master/leg11.Bone.1/leg11.Bone.2/leg11.Bone.3
+        weight: 1
+      - path: Armature/master/leg11.Bone.1/leg11.Bone.2/leg11.Bone.3/leg11.Bone.4
+        weight: 1
+      - path: Armature/master/leg11.Bone.1/leg11.Bone.2/leg11.Bone.3/leg11.Bone.4/leg11.Bone.5
+        weight: 1
+      - path: Armature/master/leg11.Bone.1/leg11.Bone.2/leg11.Bone.3/leg11.Bone.4/leg11.Bone.5/leg11.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg12.Bone.1
+        weight: 1
+      - path: Armature/master/leg12.Bone.1/leg12.Bone.2
+        weight: 1
+      - path: Armature/master/leg12.Bone.1/leg12.Bone.2/leg12.Bone.3
+        weight: 1
+      - path: Armature/master/leg12.Bone.1/leg12.Bone.2/leg12.Bone.3/leg12.Bone.4
+        weight: 1
+      - path: Armature/master/leg12.Bone.1/leg12.Bone.2/leg12.Bone.3/leg12.Bone.4/leg12.Bone.5
+        weight: 1
+      - path: Armature/master/leg12.Bone.1/leg12.Bone.2/leg12.Bone.3/leg12.Bone.4/leg12.Bone.5/leg12.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg13.Bone.1
+        weight: 1
+      - path: Armature/master/leg13.Bone.1/leg13.Bone.2
+        weight: 1
+      - path: Armature/master/leg13.Bone.1/leg13.Bone.2/leg13.Bone.3
+        weight: 1
+      - path: Armature/master/leg13.Bone.1/leg13.Bone.2/leg13.Bone.3/leg13.Bone.4
+        weight: 1
+      - path: Armature/master/leg13.Bone.1/leg13.Bone.2/leg13.Bone.3/leg13.Bone.4/leg13.Bone.5
+        weight: 1
+      - path: Armature/master/leg13.Bone.1/leg13.Bone.2/leg13.Bone.3/leg13.Bone.4/leg13.Bone.5/leg13.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg14.Bone.1
+        weight: 1
+      - path: Armature/master/leg14.Bone.1/leg14.Bone.2
+        weight: 1
+      - path: Armature/master/leg14.Bone.1/leg14.Bone.2/leg14.Bone.3
+        weight: 1
+      - path: Armature/master/leg14.Bone.1/leg14.Bone.2/leg14.Bone.3/leg14.Bone.4
+        weight: 1
+      - path: Armature/master/leg14.Bone.1/leg14.Bone.2/leg14.Bone.3/leg14.Bone.4/leg14.Bone.5
+        weight: 1
+      - path: Armature/master/leg14.Bone.1/leg14.Bone.2/leg14.Bone.3/leg14.Bone.4/leg14.Bone.5/leg14.Bone.5_end
+        weight: 1
+      - path: Armature/master/leg15.Bone.1
+        weight: 1
+      - path: Armature/master/leg15.Bone.1/leg15.Bone.2
+        weight: 1
+      - path: Armature/master/leg15.Bone.1/leg15.Bone.2/leg15.Bone.3
+        weight: 1
+      - path: Armature/master/leg15.Bone.1/leg15.Bone.2/leg15.Bone.3/leg15.Bone.4
+        weight: 1
+      - path: Armature/master/leg15.Bone.1/leg15.Bone.2/leg15.Bone.3/leg15.Bone.4/leg15.Bone.5
+        weight: 1
+      - path: Armature/master/leg15.Bone.1/leg15.Bone.2/leg15.Bone.3/leg15.Bone.4/leg15.Bone.5/leg15.Bone.5_end
+        weight: 1
+      - path: Sphere.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
